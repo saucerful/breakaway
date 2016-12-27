@@ -2,6 +2,17 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
+body {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-image: url(../assets/images/default-pattern.png);
+  background-repeat: repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
 pre code {
   display: block; padding: 0.5em;
   background: #272822;
